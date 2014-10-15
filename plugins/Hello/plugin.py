@@ -45,13 +45,7 @@ class HelloPlugin(BasePlugin):
         def modGivenTaken(self, nick, modGiven):
                 if modGiven:
                         print("Moderator status given to "+ nick)
-                        if nick=="Sezco":
-                                self.sezcopresent=True
-                                print (str(sezcopresent))
                         #self.sendMessage("Run! "+ nick +" has been given moderator powers!")
                 else:
                         print("Moderator status removed from "+ nick)
-                        if nick=="Sezco":
-                                self.sezcopresent=False
-                                print (str(sezcopresent))
                         #self.sendMessage("Relax, "+ nick +" has lost moderator powers")

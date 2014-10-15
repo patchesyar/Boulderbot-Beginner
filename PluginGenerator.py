@@ -7,10 +7,6 @@ def makePlugin():
     np =input ("What is the name of the new plugin? ")
     print(os.listdir())
     time.sleep(1)
-    #############################
-    #you may need to change this#
-    #depending on your file home#
-    #############################
     os.chdir(".\\plugins")
     print(os.listdir())
     time.sleep(1)
